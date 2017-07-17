@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+## Internet og things
 
-You can use the [editor on GitHub](https://github.com/Khunoil/-NETPIE/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Khunoil/-NETPIE/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  การทดลองออกได้เป็น 2 ส่วน ส่วนแรกคือการแสดงผลค่าอุณหภูมิและความชื้นจากบอร์ดไปแสดงบนเบราว์เซอร์(HTML5) ผ่านแพลตฟอร์มNETPIE โดยเริ่มต้นจากการเขียนโปรแกรมบนบอร์ด Arduino เพื่อนำข้อมูลจากเซนเซอร์ DHT11 ส่งไปที่ NETPIE โดยเรียกใช้ Arduino Microgear ส่วนในฝั่งของเบราว์เซอร์ ผู้ศึกษาจะเขียนโปรแกรม HTML5 โดยเรียกใช้HTML5 Microgear เพื่อรับค่าข้อมูลจาก NETPIE มาแสดงผล
+  
+  การทดลองส่วนที่สอง เป็นการให้บอร์ดรับคำสั่งจากปุ่มกดบนเบราว์เซอร์ผ่านNETPIE เริ่มจากการสร้างปุ่มบนเบราว์เซอร์ด้วยโปรแกรม HTML5 เมื่อมีการคลิกกดปุ่ม โปรแกรมจะรับข้อมูลเพื่อส่งไปที่ NETPIE โดยเรียกใช้ฟังก์ชั่นส่งข้อมูลในHTML5Microgear บอร์ด Arduinoจะเป็นรอรับข้อมูลคำสั่งจาก NETPIE ผ่านArduino Microgear และส่งค่าสถานะกลับไปยังเบราว์เซอร์อีกครั้งเพื่อนำไปแสดงผล
+  
