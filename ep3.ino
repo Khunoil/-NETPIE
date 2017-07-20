@@ -1,14 +1,11 @@
 
-
+// Microgear
 #include <AuthClient.h>
 #include <debug.h>
 #include <MicroGear.h>
 #include <MQTTClient.h>
 #include <PubSubClient.h>
 #include <SHA1.h>
-
-
-
 
 
 //Node WIFI
